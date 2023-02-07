@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediaFlix</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="./styles/movies.css">
+    <link rel="shortcut icon" href="./img/logo2.jpg">
+    <body>
+    <!--HEADER-->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <a class="navbar-brand" href="/index.html">
+          <img src="./img/logo1.jpg" width="65" height="65" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdownMovies" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Peliculas
+              </a>
+              <div class="dropdown-menu" aria-labelledby="dropdownMovies">
+                <a class="dropdown-item" href="/movies.html">Estrenos Destacados</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="/movies.html">Peliculas Actualizadas</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdownSeries" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Series
+              </a>
+              <div class="dropdown-menu" aria-labelledby="dropdownSeries">
+                <a class="dropdown-item" href="/series.html">Series Destacadas</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="/series.html">Temporadas Nuevas</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="/series.html">Epidosios Nuevos</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarGenres" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Generos
+              </a>
+              <div id="genresDropdown" class="dropdown-menu" aria-labelledby="navbarGenres">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Animes</a>
+                <a class="dropdown-item" href="#">Animacion</a>
+                <a class="dropdown-item" href="#">Aventura</a>
+                <a class="dropdown-item" href="#">Bélica/Guerra</a>
+                <a class="dropdown-item" href="#">Ciencia Ficción</a>
+                <a class="dropdown-item" href="#">Comedia</a>
+                <a class="dropdown-item" href="#">Crimen</a>
+                <a class="dropdown-item" href="#">Documental</a>
+                <a class="dropdown-item" href="#">Drama</a>
+                <a class="dropdown-item" href="#">Familia</a>
+                <a class="dropdown-item" href="#">Fantasia</a>
+                <a class="dropdown-item" href="#">Historia</a>
+                <a class="dropdown-item" href="#">Infantil</a>
+                <a class="dropdown-item" href="#">Misterio</a>
+                <a class="dropdown-item" href="#">Música</a>
+                <a class="dropdown-item" href="#">Romance</a>
+                <a class="dropdown-item" href="#">Superhéroes</a>
+                <a class="dropdown-item" href="#">Suspenso</a>
+                <a class="dropdown-item" href="#">Terror</a>
+                <a class="dropdown-item" href="#">Western</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarPremieres2023" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Estrenos 2023
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarPremieres2023">
+                <a class="dropdown-item" href="#">Estrenos 2022</a>
+                <a class="dropdown-item" href="#">Estrenos 2021</a>
+                <a class="dropdown-item" href="#">Estrenos 2020</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/aboutus.html" id="navbarAboutUs">
+                Sobre Nosotros
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/signUp.html" id="navbarSignUp">
+                Registrarse
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+        </header>
+    <!--MAIN-->
+    <main> 
+      <h2>PELICULAS</h2> 
+        <!--CARRUSEL-->
+        <div id="carouselExampleCaptions" class="carousel slide container-fluid">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/Avatar2.jpeg" class="d-block w-100" alt="Pelicula1">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Avatar2</h3>
+                  <p>El camino del agua.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/Puñales por la espalda.jpeg" class="d-block w-100" alt="Pelicula2">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Puñales por la Esplada</h3>
+                  <p>El misterio de Glass Onion</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/Pinocho.jpeg" class="d-block w-100" alt="Peicula3">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Pinocho</h3>
+                  <p>De Guillermo del toro.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <h4>Accion</h4>
+
+          <!--CARDS ACCION-->
+          <div class="row row-cols-1 row-cols-md-5 g-2 ">
+            <div class="col">
+              <div class="card h-100">
+                <a href="https://youtu.be/l6a_GdKxhWY" target="_blank">
+                <img src="./img/Asesino Sin Memoria.jpg" class="card-img object-fit-sm-cover w-100 " alt="Pelicula1">
+               </a>
+                <div class="card-body">
+                  <h5 class="card-title">Asesino Sin Memoria</h5>
+                  <p class="card-text">Alex, un sicario, se convierte en el objetivo de su organización por negarse a cumplir un trabajo. Mientras huye de ellos, el FBI y el servicio de inteligencia mexicano siguen sus pasos, alertados por el reguero de cadáveres que deja por donde va.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <a href="https://youtu.be/a1mcS4tKGNg" target="_blank">
+                <img src="./img/Black Adam.jpg" class="card-img-top" alt="Pelicula2">
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">Black Adam</h5>
+                  <p class="card-text">Unos arqueólogos liberan de su tumba a Black Adam, quien llevaba 5000 años preso tras haber recibido los poderes de los dioses. De nuevo entre los humanos, Black Adam se dispone a imponer su justicia, muy diferente a la del mundo en el que despertó.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <a href="https://youtu.be/IKJqrbGJYkA" target="_blank">
+                <img src="./img/Carter.jpg" class="card-img-top" alt="Pelicula3">
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">Carter</h5>
+                  <p class="card-text">Tras una pandemia mortal que ha devastado Estados Unidos y Corea del Norte, un agente se ve envuelto en una misteriosa misión. Sin recuerdos, encuentra un dispositivo en su cabeza. Una voz en sus oídos le da órdenes para evitar que lo maten.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <a href="https://youtu.be/36X35b2LEu0" target="_blank">
+                <img src="./img/Samaritan.jpg" class="card-img-top" alt="Pelicula4">
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">Samaritan</h5>
+                  <p class="card-text">Un joven descubre que el superhéroe al que todos admiraban, y al que creían muerto, podría seguir vivo.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <a href="https://youtu.be/zzBIzYmxatU" target="_blank">
+                <img src="./img/TopGun.jpg" class="card-img-top" alt="Pelicula5">
+              </a>
+                <div class="card-body">
+                  <h5 class="card-title">Top Gun</h5>
+                  <p class="card-text">Maverick, quien lleva 30 años de servicio, es ahora instructor de pilotos militares. Una última misión, un sacrificio final, obliga a este maestro de los cielos a enfrentar las heridas abiertas del pasado y sus temores más profundos.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h4>Comedias</h4>
+
+          <!--CARDS COMEDIAS-->
+          <div class="row row-cols-1 row-cols-md-5 g-2 ">
+            <div class="col">
+              <div class="card h-100">
+                <a href="https://youtu.be/r5q3YC9RiXY" target="_blank">
+                <img src="./img/Bodas de Plomo.jpg" class="card-img object-fit-sm-cover " alt="Pelicula6">
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">Bodas de Plomo</h5>
+                  <p class="card-text">Darcy y Tom reúnen a sus familias para su boda en un destino idílico y remoto, pero unos maleantes toman de rehenes a todo el grupo. Darcy y Tom deberán salvar a sus seres queridos, si no se matan entre ellos primero.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <a href="https://youtu.be/3ipMjoBLiq0" target="_blank">
+                <img src="./img/tiempo para mi.jpg" class="card-img-top" alt="Pelicula7">
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">Tiempo para mi</h5>
+                  <p class="card-text">Un padre encuentra tiempo para sí mismo por primera vez en años, durante el cual retoma el contacto con un viejo amigo para pasar un fin de semana salvaje que cambiará su vida.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <a href="https://youtu.be/UufZhnWpc_E" target="_blank">
+                <img src="./img/Family_Camp.jpg" class="card-img-top" alt="Pelicula3">
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">Family Camp</h5>
+                  <p class="card-text">Dos familias totalmente opuestas comparten una cabaña durante una semana en un campamento. Con el codiciado trofeo del campamento en juego, los papás Tommy y Eddie terminan perdidos en el bosque.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <a href="https://youtu.be/g_66eCCpPzk" target="_blank">
+                <img src="./img/Padre no hay.jpg" class="card-img-top" alt="Pelicula4">
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">Padre No hay mas que uno</h5>
+                  <p class="card-text">Se acerca Navidad. Los niños rompen una figura de Belén de la colección de su padre. Sara termina con su novio. El suegro de Javier será acogido en la casa familiar para pasar las fiestas tras su reciente separación.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./img/Casate Conmigo.jpg" class="card-img-top" alt="Pelicula5">
+                <div class="card-body">
+                  <h5 class="card-title">Casate Conmigo</h5>
+                  <p class="card-text">Una estrella del pop descubre que su prometido la engaña momentos antes de su gran boda, así que decide casarse con un completo desconocido del público, sin darse cuenta de que sus vidas, quizá, van a quedar unidas para siempre.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+<!--FOOTER-->
+<div class="dropdown-divider"></div>
+  <div class="footerContainer">
+    <footer id="footer" class="d-flex flex-wrap justify-content-between align-items-center py-3 bg-black text-light">
+      <div class="col-md-4 d-flex align-items-center">
+        <span class="mb-3 mb-md-0 text-light m-3">© 2022 Mediaflix, Inc, todos los derechos Reservados</span>
+      </div>
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex m-3">
+        <li class="ms-3"><a class="text-muted" href="#"><img src="./img/twitter_logo.png" width="25" height="20" alt="twitter"></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><img src="./img/instagram_logo.png" width="20" height="20" alt="instagram"></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><img src="./img/facebook_logo.png" width="20" height="20" alt="facebook"></a></li>
+      </ul>
+    </footer>
+  </div>
+
+
+</html>
