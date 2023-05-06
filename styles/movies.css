@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+font-size: 100%;
+}
+body{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+main h2{
+    color: aliceblue;
+    text-align: center;
+    margin: 2rem;
+}
+main h4{
+    color: aliceblue;
+    text-align: start;
+    margin-top: 2rem;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 8rem;
+}
+
+.footer{
+    color: whitesmoke;
+    font-family: 'Goldman', cursive;
+}
+
+.footer p{
+    font-size: 1 rem;
+}

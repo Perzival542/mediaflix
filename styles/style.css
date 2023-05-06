@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+#header {
+    height: 0px;
+    margin: 0px;
+    color: white;
+}
+
+#searchBar {
+    display: flex;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    justify-content: space-between;
+}
+
+#searchBtn {
+    display: flex;
+    margin: 12px;
+    align-content: center;
+}
+
+body {
+    background-color: rgb(85, 81, 81);
+}
+/*
+.navbar {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+#navbarNav {
+    text-decoration: none;
+    color: white;
+    height: 500px;
+} */
+
+.container {
+    height: 90px;
+}
+
+.container, img {
+    margin-left: 0.5rem;
+}
+
+#body_container {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+#second_container {
+    background-color: black;
+    width: 92%;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.contentTitle {
+    text-align: left;
+    margin-left: 1rem;
+}
+
+#carouselEstrenos {
+    margin-top: 25px;
+    height: 300px;
+    width: 100%;
+}
+
+.carousel-inner {
+    width: 100%;
+}
+
+#bienvenida {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#carouselSeries {
+    margin-top: 25px;
+    height: 300px;
+    width: 100%;
+}
+
+.image_item {
+    width: 300px;
+    height: 350px;
+}
+
+.sideContainer {
+    width: 48%;
+    display: inline-flex;
+
+}
+
+.sideTops {
+    width: 100%;
+    text-align: left;
+
+}
+
+.sideLists a {
+    text-decoration: none;
+    color: white;
+}
+
+#topMovies {
+
+}
+
+#topSeries {
+
+}
+
+
+.footerContainer {
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 124px;
+}
+
+#footer {
+   width: 92%;
+}

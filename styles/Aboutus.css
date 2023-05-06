@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000000;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    background-color: aliceblue;
+    border-radius: 1rem;
+}
+
+h1 {
+    color: rgb(201, 38, 38);
+    font-size: 5rem;
+    margin: 2rem;
+    background-color: aliceblue;
+    border-radius: 1rem;
+}
+
+h2 {
+    color: rgb(201, 38, 38);
+    font-size: 3rem;
+    margin: 2rem;
+}
+
+h4 {
+    color: rgb(201, 38, 38);
+    font-size: 2rem;
+    margin: 2rem;
+}
